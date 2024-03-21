@@ -1,0 +1,12 @@
+h2  {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 a {
+  color: black;
+}
+
+h3 a:hover {
+  color: var(--primary-color);
+}

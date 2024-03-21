@@ -1,0 +1,36 @@
+h2  {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  text-align: center;
+  border-left: 5px solid var(--primary-color);
+}
+
+blockquote p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+td img {
+  max-width: 150px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-wrap: nowrap;
+}
