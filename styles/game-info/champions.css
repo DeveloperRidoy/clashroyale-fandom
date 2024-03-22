@@ -14,7 +14,7 @@ h2  {
   align-items: center;
   gap: 20px;
   padding: 10px;
-  background: rgba(152, 152, 152, 0.1);
+  background: rgba(70, 158, 246, 0.2);
   border-radius: 5px;
 }
 
@@ -27,6 +27,7 @@ h2  {
 
 .champion .card-intro h4 {
   font-size: 1.5rem;
+  color: var(--primary-color)
 }
 
 .champion .card-intro img {
@@ -44,11 +45,15 @@ h2  {
 }
 
 .card-description ul.card-stats li {
-  background: white;
+  background: var(--primary-color);
   padding: 5px 15px;
   border-radius: 5px;
+  color: white;
 }
 
+.card-description ul.card-stats li b {
+  font-weight: 500;
+}
 .card-description {
   display: flex;
   flex-direction: column;
@@ -56,12 +61,14 @@ h2  {
 }
 
 .card-description .special-ability {
-  background: white;
+  background: rgba(70, 158, 246, 0.1);
   padding: 10px;
   border-radius: 5px;
+  color: var(--primary-color)
 }
 
 .card-description .special-ability h5 {
   font-size: 1.2rem;
   margin: 0;
+  color: var(--primary-color)
 }
